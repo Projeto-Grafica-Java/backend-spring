@@ -1,4 +1,4 @@
-package com.backend.graphic.Graphic.service;
+package com.backend.graphic.Graphic.Service;
 
 // regra de negocio, logica
 // controller, só recebe a requisicao, mas passa pra service fazer o trabalho

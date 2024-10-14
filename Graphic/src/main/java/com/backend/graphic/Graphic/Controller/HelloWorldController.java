@@ -1,6 +1,6 @@
 package com.backend.graphic.Graphic.Controller;
 
-import com.backend.graphic.Graphic.service.HelloWorldService;
+import com.backend.graphic.Graphic.Service.HelloWorldService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

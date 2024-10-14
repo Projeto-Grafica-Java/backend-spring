@@ -18,7 +18,7 @@ CREATE TABLE service_orders (
     notes VARCHAR(250)
 );
 
-CREATE TABLE quotes (
+CREATE TABLE orcamento (
     id INT AUTO_INCREMENT PRIMARY KEY,
     client_name VARCHAR(100) NOT NULL,
     phone VARCHAR(15) NOT NULL,
