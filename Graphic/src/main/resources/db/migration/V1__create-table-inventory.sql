@@ -1,8 +1,9 @@
-CREATE TABLE inventory (
+CREATE TABLE estoque (
     id INT AUTO_INCREMENT PRIMARY KEY,
     product_name VARCHAR(100) NOT NULL,
-    dimensions VARCHAR(50),
-    sales INT DEFAULT 0,
-    total_quantity INT NOT NULL,
-    last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+    codigo VARCHAR(50) NOT NULL,
+    medidas VARCHAR(50),
+    vendas INT NOT NULL,
+    quantidade INT NOT NULL,
+    data VARCHAR(50)
 );

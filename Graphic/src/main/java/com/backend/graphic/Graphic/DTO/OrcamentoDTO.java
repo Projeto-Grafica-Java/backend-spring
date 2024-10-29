@@ -44,7 +44,7 @@ public class OrcamentoDTO {
         this.notes = orcamento.getNotes();
         this.artwork = orcamento.getArtwork();
     }
+    public OrcamentoDTO() {}
 
 }
 
-//public OrcamentoDTO() {}

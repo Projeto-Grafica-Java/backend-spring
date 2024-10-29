@@ -1,4 +1,4 @@
-CREATE TABLE service_orders (
+CREATE TABLE ordem_servico (
     id SERIAL PRIMARY KEY,
     client_name VARCHAR(100) NOT NULL,
     phone VARCHAR(15) NOT NULL,
